@@ -52,7 +52,7 @@ const long interval = 10000;        // Interval at which to publish sensor readi
 unsigned int readingId = 0;
 
 // Insert your SSID
-constexpr char WIFI_SSID[] = "WELITON";
+constexpr char WIFI_SSID[] = "nome_da_rede";
 
 int32_t getWiFiChannel(const char *ssid) {
   if (int32_t n = WiFi.scanNetworks()) {

@@ -16,8 +16,8 @@
 #include <Arduino_JSON.h>
 
 // Replace with your network credentials (STATION)
-const char* ssid = "WELITON";
-const char* password = "weliton84";
+const char* ssid = "nome_da_rede";
+const char* password = "senha_da_rede";
 
 // Structure example to receive data
 // Must match the sender structure
